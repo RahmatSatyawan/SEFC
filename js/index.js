@@ -16,8 +16,8 @@ showSlides();
 function showSlides() {
   var slides = document.getElementsByClassName("home-hero")[0];
   let bgSlide = [
-    "/assets/bg-hero-2(Medium).jpg",
-    "/assets/bg-hero-1(Medium).jpg",
+    "/assets/bg-hero-3.jpg",
+    "/assets/bg-hero-4.jpg",
   ];
   slides.style.removeProperty("backgroundImage");
   slides.style.backgroundImage = `url(${bgSlide[indexHero]})`;
